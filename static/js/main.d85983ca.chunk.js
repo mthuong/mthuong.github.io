@@ -49,17 +49,17 @@
         a.d(i, "n", function () {
           return u;
         });
-      var o = a(4),
-        e = a.n(o),
+      var e = a(4),
+        o = a.n(e),
         x = {animated: !0},
         s = {
           username: "Tom Nguyen",
           title: "Hi all, I'm Th\u01b0\u1eddng (Tom) Nguy\u1ec5n",
-          subTitle: e()(
-            "A passionate Software Developer \ud83d\ude80 having an experience of building Mobile applications with iOS, React Native, Flutter and Web with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+          subTitle: o()(
+            "A passionate Software Developer \ud83d\ude80 having an experience of building Mobile applications with Swift, Objective-C, React Native, Flutter and Web with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
           ),
           resumeLink:
-            "https://drive.google.com/file/d/19s2iC8Sqzn0YuRFUMC4nLKtuYcACofOd/view?usp=sharing",
+            "https://drive.google.com/file/d/1YDqNcwFOYakgaFKCz2-I7hm0-ATLfBuy/view?usp=sharing",
           displayGreeting: !0
         },
         r = {
@@ -74,12 +74,15 @@
           subTitle:
             "DEVELOP SOFTWARE, COLLABORATE WITH OTHERS AND LEARN NEW THINGS EVERY DAY",
           skills: [
-            e()(
+            o()(
               "\u26a1 Develop highly interactive Front end / User Interfaces mobile applications"
             ),
-            e()("\u26a1 Develop back-end and front-end for web applications"),
-            e()("\u26a1 Integration of third party services such as Firebase"),
-            e()(
+            o()("\u26a1 Develop back-end and front-end for web applications"),
+            o()(
+              "\u26a1 Ensured quality and performance of application by performing unit and automation tests"
+            ),
+            o()("\u26a1 Integration of third party services such as Firebase"),
+            o()(
               "\u26a1 Continuous Integration/Delivery with Jenkins, CircleCI and more"
             )
           ],
@@ -155,6 +158,13 @@
               url: "https://circleci.com/",
               height: 60,
               width: "auto"
+            },
+            {
+              skillName: "Bitrise",
+              icon: a(109),
+              url: "https://www.bitrise.io/",
+              height: 60,
+              width: "auto"
             }
           ],
           display: !0
@@ -164,7 +174,7 @@
           schools: [
             {
               schoolName: "HCMC University of Technology and Education",
-              logo: a(109),
+              logo: a(110),
               subHeader: "The Degree of Bachelor in Information Technology",
               duration: "September 2006 - April 2011",
               desc: "",
@@ -179,6 +189,8 @@
           viewSkillBars: !0,
           experience: [
             {Stack: "iOS App Development", progressPercentage: "90%"},
+            {Stack: "React Native App Development", progressPercentage: "90%"},
+            {Stack: "Flutter App Development", progressPercentage: "80%"},
             {Stack: "Front-end web application", progressPercentage: "75%"},
             {Stack: "Backend", progressPercentage: "60%"},
             {Stack: "Android App Development", progressPercentage: "60%"}
@@ -192,67 +204,73 @@
               role: "Mobile team leader / Mobile developer",
               company: "ItAds",
               url: "https://itads.net/",
-              companylogo: a(110),
+              companylogo: a(111),
               date: "Oct 2019 \u2013 Present",
-              desc: "Build best applications for Thailand market",
+              desc: "Developed, launched, and maintained an enterprise mobile application which serves marketing purposes for more than 2,000 Isuzu and Mitsubishi care salespeople in Thailand.",
               descBullets: [
-                "Setup Jenkins for auto-deployment mobile applications",
-                "Write gray box end-to-end testing and automation library for mobile apps with Detox, Selenium",
-                "Integrated automation testing with Jenkins",
-                "Write unit test with Jest for React Native application",
-                "Setup bitbucket pipeline to run Jest automatically for any Pull request",
-                "Review codes",
-                "Setup React Native project boilerplate with Typescript, mobx, redux, i18n, react-navigation.",
-                "Work with Flutter, NodeJS, ReactJS"
+                "Mentor for new junior members",
+                "Implemented and deployed cross-platform mobile applications built in React Native.",
+                "Implemented and deployed cross-platform mobile applications to control digital vehicle recorder devices on the car built in Flutter.",
+                "Reviewed client requirements, wireframes, and designs for technical feasibility.",
+                "Ensured quality and performance of application by performing unit and automation tests.",
+                "Reduced deployment time by 95% using FastLane and Jenkins to automate deployment to Apple Store Connect and Google Play Store.",
+                "Explored new technologies and shared knowledge such as automation deployment with the development team."
               ]
             },
             {
-              role: "Mobile team leader/manager / Mobile developer",
+              role: "Senior Mobile developer / Team leader",
               company: "The App Team",
               url: "https://www.theappteam.com.au/",
-              companylogo: a(111),
+              companylogo: a(112),
               date: "July 2017 - Sep 2019",
-              desc: "Team Manager - build up a new company.",
+              desc: "Australian-based boutique agency providing full end-to-end software development services.",
               descBullets: [
-                "Mobile Team Leader. Mobile Developer",
-                "Successfully build up a new company at the beginning",
-                "Planned, supervised, and coordinated daily activity of Vietnam team and Australia team",
-                "React Native developer",
-                "iOS Mobile Application developer"
+                "Interview and mentor junior members.",
+                "Planned, supervised, and coordinated daily activity of Vietnam team and Australia team.",
+                "Worked closely with product managers and designers to define a rich mobile user experience.",
+                "Determined technical feasibility of client requirements, wireframes, and designs.",
+                "Performed unit and automation tests to maintain system quality and performance.",
+                "Reduced deployment time by 80% through automation with Fastlane and Bitrise.",
+                "Researched and implemented new technologies such as push notifications, bug tracking, automatic deployment, and UI automation testing."
               ]
             },
             {
-              role: "General Manager / Team Leader / Mobile Developer",
+              role: "General Manager / Mobile Developer",
               company: "Kerofrog",
               url: "https://twitter.com/kerofrogapps",
-              companylogo: a(112),
+              companylogo: a(113),
               date: "May 2015 - July 2017",
+              desc: "My own agency company providing software development services.",
               descBullets: [
-                "Build up a new company",
-                "Training team member",
-                "Build iOS Mobile application"
+                "Establish my own company.",
+                "Manage company up to 12 members",
+                "Hiring and training new members.",
+                "Reviewed client requirements, wireframes, and design technical architect."
               ]
             },
             {
-              role: "Senior Mobile Developer",
+              role: "Mobile Developer",
               company: "Vinasource",
               url: "https://www.facebook.com/PoetaVietnam",
-              companylogo: a(113),
+              companylogo: a(114),
               date: "Nov 2012 \u2013 Jun 2015",
+              desc: "A technology and software company, specializing in digital transformation, CRM integration, workflow automation, app development, and more!",
               descBullets: [
-                "Main responsible for iOS mobile project",
-                "Guide new junior member"
+                "Worked closely with project managers and designers to define a rich mobile user experience on iOS.",
+                "Reviewed client requirements.",
+                "Self-planning tasks."
               ]
             },
             {
               role: "Mobile Developer",
               company: "TMA Solution",
               url: "https://www.tma.vn/",
-              companylogo: a(114),
+              companylogo: a(115),
               date: "Jan 2011 \u2013 Nov 2012",
+              desc: "TMA is the leading Vietnam software outsourcing company with 2700 engineers and 24 years of experience in providing quality software and IT outsourcing.",
               descBullets: [
-                "Develop new application base on requirement with iOS Objective-C",
-                "Write unit test"
+                "Develop new application base on client requirements with iOS Objective-C",
+                "Write unit test to ensure code quality"
               ]
             }
           ]
@@ -264,7 +282,7 @@
             "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
           projects: [
             {
-              image: a(115),
+              image: a(116),
               projectName: "Saayahealth",
               projectDesc:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -273,7 +291,7 @@
               ]
             },
             {
-              image: a(116),
+              image: a(117),
               projectName: "Nextu",
               projectDesc:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -283,7 +301,7 @@
           display: !1
         },
         A = {
-          title: e()("Achievements And Certifications \ud83c\udfc6 "),
+          title: o()("Achievements And Certifications \ud83c\udfc6 "),
           subtitle:
             "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
           achievementsCards: [
@@ -291,7 +309,7 @@
               title: "Google Code-In Finalist",
               subtitle:
                 "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-              image: a(117),
+              image: a(118),
               footerLink: [
                 {
                   name: "Certification",
@@ -311,7 +329,7 @@
               title: "Google Assistant Action",
               subtitle:
                 "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-              image: a(118),
+              image: a(119),
               footerLink: [
                 {
                   name: "View Google Assistant Action",
@@ -323,7 +341,7 @@
               title: "PWA Web App Developer",
               subtitle:
                 "Completed Certifcation from SMIT for PWA Web App Development",
-              image: a(119),
+              image: a(120),
               footerLink: [
                 {name: "Certification", url: ""},
                 {
@@ -358,7 +376,7 @@
         },
         p = {
           title: "TALKS",
-          subtitle: e()(
+          subtitle: o()(
             "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE \ud83d\ude05"
           ),
           talks: [
@@ -372,7 +390,7 @@
           display: !1
         },
         d = {
-          title: e()("Podcast \ud83c\udf99\ufe0f"),
+          title: o()("Podcast \ud83c\udf99\ufe0f"),
           subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
           podcast: [
             "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
@@ -380,7 +398,7 @@
           display: !1
         },
         f = {
-          title: e()("Contact Me \u260e\ufe0f"),
+          title: o()("Contact Me \u260e\ufe0f"),
           subtitle:
             "IF YOU WANT TO DISCUSS ANYTHING, CONTACT ME AT ONE OF THESE SOCIAL MEDIA BELOW",
           email_address: "nguyenmanhthuong41@gmail.com"
@@ -419,16 +437,16 @@
       a.d(i, "a", function () {
         return s;
       });
-      var o = a(0),
-        e = a.n(o),
-        x = (a(180), a(1));
+      var e = a(0),
+        o = a.n(e),
+        x = (a(181), a(1));
       function s() {
         return x.k.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               "div",
               {className: "social-media-div"},
               x.k.github
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.github,
@@ -436,12 +454,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-github"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-github"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.linkedin
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.linkedin,
@@ -449,12 +467,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-linkedin-in"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-linkedin-in"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.gmail
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: "mailto:".concat(x.k.gmail),
@@ -462,12 +480,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-google"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-google"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.gitlab
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.gitlab,
@@ -475,12 +493,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-gitlab"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-gitlab"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.facebook
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.facebook,
@@ -488,12 +506,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-facebook-f"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-facebook-f"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.instagram
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.instagram,
@@ -501,12 +519,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-instagram"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-instagram"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.twitter
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.twitter,
@@ -514,12 +532,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-twitter"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-twitter"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.medium
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.medium,
@@ -527,12 +545,12 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-medium"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-medium"}),
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.stackoverflow
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.stackoverflow,
@@ -540,14 +558,14 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {
+                    o.a.createElement("i", {
                       className: "fab fa-stack-overflow"
                     }),
-                    e.a.createElement("span", null)
+                    o.a.createElement("span", null)
                   )
                 : null,
               x.k.kaggle
-                ? e.a.createElement(
+                ? o.a.createElement(
                     "a",
                     {
                       href: x.k.kaggle,
@@ -555,8 +573,8 @@
                       target: "_blank",
                       rel: "noopener noreferrer"
                     },
-                    e.a.createElement("i", {className: "fab fa-kaggle"}),
-                    e.a.createElement("span", null)
+                    o.a.createElement("i", {className: "fab fa-kaggle"}),
+                    o.a.createElement("span", null)
                   )
                 : null
             )
@@ -627,7 +645,7 @@
       t.exports = a.p + "static/media/contactMailDark.51cf7192.svg";
     },
     function (t, i, a) {
-      t.exports = a(206);
+      t.exports = a(207);
     },
     ,
     ,
@@ -702,6 +720,9 @@
     function (t, i) {
       t.exports =
         "data:image/png;base64,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";
+    },
+    function (t, i, a) {
+      t.exports = a.p + "static/media/bitrise.03c81af0.png";
     },
     function (t, i, a) {
       t.exports = a.p + "static/media/hcmute.0576996e.png";
@@ -833,136 +854,136 @@
     function (t, i, a) {
       "use strict";
       a.r(i);
-      var o = a(0),
-        e = a.n(o),
+      var e = a(0),
+        o = a.n(e),
         x = a(58),
         s = a.n(x),
         r = (a(77), a(78), a(5)),
         y = a(59),
         n = a.n(y),
-        m = (a(86), e.a.createContext()),
+        m = (a(86), o.a.createContext()),
         l = m.Provider,
         c = (m.Consumer, m),
         k =
           (a(87),
           function () {
-            var t = Object(o.useContext)(c).isDark,
-              i = Object(o.useState)(t),
+            var t = Object(e.useContext)(c).isDark,
+              i = Object(e.useState)(t),
               a = Object(r.a)(i, 2),
               x = a[0],
               s = a[1],
-              y = Object(o.useContext)(c);
-            return e.a.createElement(
+              y = Object(e.useContext)(c);
+            return o.a.createElement(
               "label",
               {className: "switch"},
-              e.a.createElement("input", {
+              o.a.createElement("input", {
                 type: "checkbox",
                 checked: t,
                 onChange: function () {
                   y.changeTheme(), s(!x);
                 }
               }),
-              e.a.createElement("span", {className: "slider round"})
+              o.a.createElement("span", {className: "slider round"})
             );
           }),
         A = a(1);
       var h = function () {
-          var t = Object(o.useContext)(c).isDark,
+          var t = Object(e.useContext)(c).isDark,
             i = A.o.display,
             a = A.h.display,
             x = A.j.display,
             s = A.a.display,
             r = A.c.display,
             y = A.l.display;
-          return e.a.createElement(
+          return o.a.createElement(
             n.a,
             null,
-            e.a.createElement(
+            o.a.createElement(
               "header",
               {className: t ? "dark-menu header" : "header"},
-              e.a.createElement(
+              o.a.createElement(
                 "a",
                 {href: "/", className: "logo"},
-                e.a.createElement("span", {className: "grey-color"}, " <"),
-                e.a.createElement(
+                o.a.createElement("span", {className: "grey-color"}, " <"),
+                o.a.createElement(
                   "span",
                   {className: "logo-name"},
                   A.f.username
                 ),
-                e.a.createElement("span", {className: "grey-color"}, "/>")
+                o.a.createElement("span", {className: "grey-color"}, "/>")
               ),
-              e.a.createElement("input", {
+              o.a.createElement("input", {
                 className: "menu-btn",
                 type: "checkbox",
                 id: "menu-btn"
               }),
-              e.a.createElement(
+              o.a.createElement(
                 "label",
                 {
                   className: "menu-icon",
                   htmlFor: "menu-btn",
                   style: {color: "white"}
                 },
-                e.a.createElement("span", {
+                o.a.createElement("span", {
                   className: t ? "navicon navicon-dark" : "navicon"
                 })
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "ul",
                 {className: t ? "dark-menu menu" : "menu"},
                 x &&
-                  e.a.createElement(
+                  o.a.createElement(
                     "li",
                     null,
-                    e.a.createElement("a", {href: "#skills"}, "Skills")
+                    o.a.createElement("a", {href: "#skills"}, "Skills")
                   ),
                 i &&
-                  e.a.createElement(
+                  o.a.createElement(
                     "li",
                     null,
-                    e.a.createElement(
+                    o.a.createElement(
                       "a",
                       {href: "#experience"},
                       "Work Experiences"
                     )
                   ),
                 a &&
-                  e.a.createElement(
+                  o.a.createElement(
                     "li",
                     null,
-                    e.a.createElement("a", {href: "#opensource"}, "Open Source")
+                    o.a.createElement("a", {href: "#opensource"}, "Open Source")
                   ),
                 s &&
-                  e.a.createElement(
+                  o.a.createElement(
                     "li",
                     null,
-                    e.a.createElement(
+                    o.a.createElement(
                       "a",
                       {href: "#achievements"},
                       "Achievements"
                     )
                   ),
                 r &&
-                  e.a.createElement(
+                  o.a.createElement(
                     "li",
                     null,
-                    e.a.createElement("a", {href: "#blogs"}, "Blogs")
+                    o.a.createElement("a", {href: "#blogs"}, "Blogs")
                   ),
                 y &&
-                  e.a.createElement(
+                  o.a.createElement(
                     "li",
                     null,
-                    e.a.createElement("a", {href: "#talks"}, "Talks")
+                    o.a.createElement("a", {href: "#talks"}, "Talks")
                   ),
-                e.a.createElement(
+                o.a.createElement(
                   "li",
                   null,
-                  e.a.createElement("a", {href: "#contact"}, "Contact Me")
+                  o.a.createElement("a", {href: "#contact"}, "Contact Me")
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "li",
                   null,
-                  e.a.createElement("a", null, e.a.createElement(k, null))
+                  o.a.createElement("a", null, o.a.createElement(k, null))
                 )
               )
             )
@@ -971,39 +992,39 @@
         p = a(3),
         d = a(4),
         f = a.n(d),
-        u = (a(129), a(60)),
+        u = (a(130), a(60)),
         E = a(61),
         B = a(62),
         D = a(70),
-        b = a(69),
+        g = a(69),
         v = a(63),
-        g = a.n(v);
-      a(179);
+        b = a.n(v);
+      a(180);
       function G() {
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           {className: "centerContent"},
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "sk-circle"},
-            e.a.createElement("div", {className: "sk-circle1 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle2 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle3 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle4 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle5 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle6 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle7 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle8 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle9 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle10 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle11 sk-child"}),
-            e.a.createElement("div", {className: "sk-circle12 sk-child"})
+            o.a.createElement("div", {className: "sk-circle1 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle2 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle3 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle4 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle5 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle6 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle7 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle8 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle9 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle10 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle11 sk-child"}),
+            o.a.createElement("div", {className: "sk-circle12 sk-child"})
           )
         );
       }
       var V = (function (t) {
           Object(D.a)(a, t);
-          var i = Object(b.a)(a);
+          var i = Object(g.a)(a);
           function a() {
             return Object(E.a)(this, a), i.apply(this, arguments);
           }
@@ -1017,10 +1038,10 @@
                     autoplay: !0,
                     animationData: this.props.animationData
                   };
-                  return e.a.createElement(
-                    o.Suspense,
-                    {fallback: e.a.createElement(G, null)},
-                    e.a.createElement(g.a, {
+                  return o.a.createElement(
+                    e.Suspense,
+                    {fallback: o.a.createElement(G, null)},
+                    o.a.createElement(b.a, {
                       options: t,
                       isClickToPauseDisabled: !0
                     })
@@ -1030,43 +1051,43 @@
             ]),
             a
           );
-        })(o.Component),
+        })(e.Component),
         P = a(29);
-      a(181);
+      a(182);
       function F(t) {
         var i = t.text,
           a = t.className,
-          o = t.href,
+          e = t.href,
           x = t.newTab;
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           {className: a},
-          e.a.createElement(
+          o.a.createElement(
             "a",
-            {className: "main-button", href: o, target: x && "_blank"},
+            {className: "main-button", href: e, target: x && "_blank"},
             i
           )
         );
       }
       function S() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.f.displayGreeting
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "40px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "greet-main", id: "greeting"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "greeting-main"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "greeting-text-div"},
-                    e.a.createElement(
+                    o.a.createElement(
                       "div",
                       null,
-                      e.a.createElement(
+                      o.a.createElement(
                         "h1",
                         {
                           className: t
@@ -1076,13 +1097,13 @@
                         " ",
                         A.f.title,
                         " ",
-                        e.a.createElement(
+                        o.a.createElement(
                           "span",
                           {className: "wave-emoji"},
                           f()("\ud83d\udc4b")
                         )
                       ),
-                      e.a.createElement(
+                      o.a.createElement(
                         "p",
                         {
                           className: t
@@ -1091,16 +1112,16 @@
                         },
                         A.f.subTitle
                       ),
-                      e.a.createElement(P.a, null),
-                      e.a.createElement(
+                      o.a.createElement(P.a, null),
+                      o.a.createElement(
                         "div",
                         {className: "button-greeting-div"},
-                        e.a.createElement(F, {
+                        o.a.createElement(F, {
                           text: "Contact me",
                           href: "#contact"
                         }),
                         A.f.resumeLink &&
-                          e.a.createElement(F, {
+                          o.a.createElement(F, {
                             text: "See my resume",
                             newTab: !0,
                             href: A.f.resumeLink
@@ -1108,14 +1129,14 @@
                       )
                     )
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "greeting-image-div"},
                     A.g.animated
-                      ? e.a.createElement(V, {animationData: u})
-                      : e.a.createElement("img", {
+                      ? o.a.createElement(V, {animationData: u})
+                      : o.a.createElement("img", {
                           alt: "man sitting on table",
-                          src: a(182)
+                          src: a(183)
                         })
                   )
                 )
@@ -1123,39 +1144,39 @@
             )
           : null;
       }
-      a(183), a(184);
+      a(184), a(185);
       function C() {
-        var t = Object(o.useContext)(c).isDark;
-        return e.a.createElement(
+        var t = Object(e.useContext)(c).isDark;
+        return o.a.createElement(
           "div",
           null,
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "software-skills-main-div"},
-            e.a.createElement(
+            o.a.createElement(
               "ul",
               {className: "dev-icons"},
               A.j.softwareSkills.map(function (i, a) {
-                var o,
+                var e,
                   x = i.iconDark && t ? i.iconDark : i.icon;
-                return e.a.createElement(
+                return o.a.createElement(
                   "li",
                   {
                     key: a,
                     className: "software-skill-inline",
                     name: i.skillName
                   },
-                  e.a.createElement(
+                  o.a.createElement(
                     "a",
                     {alt: i.skillName, href: i.url},
-                    e.a.createElement("img", {
+                    o.a.createElement("img", {
                       src: x,
                       alt: i.skillName,
-                      width: null !== (o = i.width) && void 0 !== o ? o : "60",
+                      width: null !== (e = i.width) && void 0 !== e ? e : "60",
                       height: i.height
                     })
                   ),
-                  e.a.createElement("p", null, i.skillName)
+                  o.a.createElement("p", null, i.skillName)
                 );
               })
             )
@@ -1164,35 +1185,35 @@
       }
       var w = a(64);
       function M() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.j.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               "div",
               {className: t ? "dark-mode main" : "main", id: "skills"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "skills-main-div"},
-                e.a.createElement(
+                o.a.createElement(
                   p.Fade,
                   {left: !0, duration: 1e3},
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "skills-image-div"},
                     A.g.animated
-                      ? e.a.createElement(V, {animationData: w})
-                      : e.a.createElement("img", {
+                      ? o.a.createElement(V, {animationData: w})
+                      : o.a.createElement("img", {
                           alt: "Man Working",
-                          src: a(185)
+                          src: a(186)
                         })
                   )
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   p.Fade,
                   {right: !0, duration: 1e3},
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "skills-text-div"},
-                    e.a.createElement(
+                    o.a.createElement(
                       "h1",
                       {
                         className: t
@@ -1202,7 +1223,7 @@
                       A.j.title,
                       " "
                     ),
-                    e.a.createElement(
+                    o.a.createElement(
                       "p",
                       {
                         className: t
@@ -1211,12 +1232,12 @@
                       },
                       A.j.subTitle
                     ),
-                    e.a.createElement(C, null),
-                    e.a.createElement(
+                    o.a.createElement(C, null),
+                    o.a.createElement(
                       "div",
                       null,
                       A.j.skills.map(function (i, a) {
-                        return e.a.createElement(
+                        return o.a.createElement(
                           "p",
                           {
                             key: a,
@@ -1234,66 +1255,66 @@
             )
           : null;
       }
-      a(186);
+      a(187);
       var I = a(65);
       function Q() {
         return A.m.viewSkillBars
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "20px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "skills-container"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "skills-bar"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "h1",
                     {className: "skills-heading"},
                     "Proficiency"
                   ),
                   A.m.experience.map(function (t, i) {
                     var a = {width: t.progressPercentage};
-                    return e.a.createElement(
+                    return o.a.createElement(
                       "div",
                       {key: i, className: "skill"},
-                      e.a.createElement("p", null, t.Stack),
-                      e.a.createElement(
+                      o.a.createElement("p", null, t.Stack),
+                      o.a.createElement(
                         "div",
                         {className: "meter"},
-                        e.a.createElement("span", {style: a})
+                        o.a.createElement("span", {style: a})
                       )
                     );
                   })
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "skills-image"},
                   A.g.animated
-                    ? e.a.createElement(V, {animationData: I})
-                    : e.a.createElement("img", {alt: "Skills", src: a(187)})
+                    ? o.a.createElement(V, {animationData: I})
+                    : o.a.createElement("img", {alt: "Skills", src: a(188)})
                 )
               )
             )
           : null;
       }
-      a(188), a(189);
+      a(189), a(190);
       var Y = a(66);
       function R(t) {
         var i = t.cardInfo,
           a = t.isDark,
-          x = Object(o.useState)([]),
+          x = Object(e.useState)([]),
           s = Object(r.a)(x, 2),
           y = s[0],
           n = s[1],
-          m = Object(o.createRef)();
+          m = Object(e.createRef)();
         var l,
           c = function (t) {
             var i = t.descBullets,
               a = t.isDark;
             return i
               ? i.map(function (t, i) {
-                  return e.a.createElement(
+                  return o.a.createElement(
                     "li",
                     {
                       key: i,
@@ -1304,10 +1325,10 @@
                 })
               : null;
           };
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           {className: a ? "experience-card-dark" : "experience-card"},
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {
               style: {
@@ -1317,20 +1338,20 @@
               },
               className: "experience-banner"
             },
-            e.a.createElement("div", {className: "experience-blurred_div"}),
-            e.a.createElement(
+            o.a.createElement("div", {className: "experience-blurred_div"}),
+            o.a.createElement(
               "div",
               {className: "experience-div-company"},
-              e.a.createElement(
+              o.a.createElement(
                 "h5",
                 {className: "experience-text-company"},
                 i.company
               )
             ),
-            e.a.createElement(
+            o.a.createElement(
               "a",
               {href: i.url},
-              e.a.createElement("img", {
+              o.a.createElement("img", {
                 crossOrigin: "anonymous",
                 ref: m,
                 className: "experience-roundedimg",
@@ -1345,10 +1366,10 @@
               })
             )
           ),
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "experience-text-details"},
-            e.a.createElement(
+            o.a.createElement(
               "h5",
               {
                 className: a
@@ -1357,7 +1378,7 @@
               },
               i.role
             ),
-            e.a.createElement(
+            o.a.createElement(
               "h5",
               {
                 className: a
@@ -1366,7 +1387,7 @@
               },
               i.date
             ),
-            e.a.createElement(
+            o.a.createElement(
               "p",
               {
                 className: a
@@ -1375,39 +1396,39 @@
               },
               i.desc
             ),
-            e.a.createElement(
+            o.a.createElement(
               "ul",
               null,
-              e.a.createElement(c, {descBullets: i.descBullets, isDark: a})
+              o.a.createElement(c, {descBullets: i.descBullets, isDark: a})
             )
           )
         );
       }
       function T() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.o.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               "div",
               {id: "experience"},
-              e.a.createElement(
+              o.a.createElement(
                 p.Fade,
                 {bottom: !0, duration: 1e3, distance: "20px"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "experience-container", id: "workExperience"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     null,
-                    e.a.createElement(
+                    o.a.createElement(
                       "h1",
                       {className: "experience-heading"},
                       "Experiences"
                     ),
-                    e.a.createElement(
+                    o.a.createElement(
                       "div",
                       {className: "experience-cards-div"},
                       A.o.experience.map(function (i, a) {
-                        return e.a.createElement(R, {
+                        return o.a.createElement(R, {
                           key: a,
                           isDark: t,
                           cardInfo: {
@@ -1428,24 +1449,24 @@
             )
           : null;
       }
-      a(190);
+      a(191);
       function N() {
-        var t = Object(o.lazy)(function () {
-            return a.e(4).then(a.bind(null, 209));
+        var t = Object(e.lazy)(function () {
+            return a.e(4).then(a.bind(null, 210));
           }),
           i = function () {
             return null;
           },
-          x = Object(o.useState)([]),
+          x = Object(e.useState)([]),
           s = Object(r.a)(x, 2),
           y = s[0],
           n = s[1],
-          m = Object(o.useContext)(c).isDark;
+          m = Object(e.useContext)(c).isDark;
         function l(t) {
           n(t);
         }
         return (
-          Object(o.useEffect)(function () {
+          Object(e.useEffect)(function () {
             fetch("/profile.json")
               .then(function (t) {
                 if (t.ok) return t.json();
@@ -1463,31 +1484,31 @@
               });
           }, []),
           "string" === typeof y || y instanceof String || !A.h.display
-            ? e.a.createElement(i, null)
-            : e.a.createElement(
-                o.Suspense,
-                {fallback: e.a.createElement(G, null)},
-                e.a.createElement(
+            ? o.a.createElement(i, null)
+            : o.a.createElement(
+                e.Suspense,
+                {fallback: o.a.createElement(G, null)},
+                o.a.createElement(
                   "div",
                   {className: "main", id: "opensource"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "h1",
                     {className: "project-title"},
                     f()("\ud83c\udf10"),
                     " Open Source Projects"
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "repo-cards-div-main"},
                     y.map(function (i, a) {
-                      return e.a.createElement(t, {
+                      return o.a.createElement(t, {
                         repo: i,
                         key: i.node.id,
                         isDark: m
                       });
                     })
                   ),
-                  e.a.createElement(F, {
+                  o.a.createElement(F, {
                     text: "More Projects",
                     className: "project-button",
                     href: A.k.github,
@@ -1497,25 +1518,25 @@
               )
         );
       }
-      a(191);
+      a(192);
       function H() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.b.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "20px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "main", id: "projects"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   null,
-                  e.a.createElement(
+                  o.a.createElement(
                     "h1",
                     {className: "skills-heading"},
                     A.b.title
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "p",
                     {
                       className: t
@@ -1524,11 +1545,11 @@
                     },
                     A.b.subtitle
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "projects-container"},
                     A.b.projects.map(function (i, a) {
-                      return e.a.createElement(
+                      return o.a.createElement(
                         "div",
                         {
                           key: a,
@@ -1537,20 +1558,20 @@
                             : "project-card project-card-light"
                         },
                         i.image
-                          ? e.a.createElement(
+                          ? o.a.createElement(
                               "div",
                               {className: "project-image"},
-                              e.a.createElement("img", {
+                              o.a.createElement("img", {
                                 src: i.image,
                                 alt: i.projectName,
                                 className: "card-image"
                               })
                             )
                           : null,
-                        e.a.createElement(
+                        o.a.createElement(
                           "div",
                           {className: "project-detail"},
-                          e.a.createElement(
+                          o.a.createElement(
                             "h5",
                             {
                               className: t
@@ -1559,7 +1580,7 @@
                             },
                             i.projectName
                           ),
-                          e.a.createElement(
+                          o.a.createElement(
                             "p",
                             {
                               className: t
@@ -1569,11 +1590,11 @@
                             i.projectDesc
                           ),
                           i.footerLink
-                            ? e.a.createElement(
+                            ? o.a.createElement(
                                 "div",
                                 {className: "project-card-footer"},
                                 i.footerLink.map(function (i, a) {
-                                  return e.a.createElement(
+                                  return o.a.createElement(
                                     "span",
                                     {
                                       key: a,
@@ -1600,41 +1621,41 @@
             )
           : null;
       }
-      a(192), a(193);
+      a(193), a(194);
       function O(t) {
         var i = t.cardInfo,
           a = t.isDark;
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           {className: a ? "dark-mode certificate-card" : "certificate-card"},
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "certificate-image-div"},
-            e.a.createElement("img", {
+            o.a.createElement("img", {
               src: i.image,
               alt: "PWA",
               className: "card-image"
             })
           ),
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "certificate-detail-div"},
-            e.a.createElement(
+            o.a.createElement(
               "h5",
               {className: a ? "dark-mode card-title" : "card-title"},
               i.title
             ),
-            e.a.createElement(
+            o.a.createElement(
               "p",
               {className: a ? "dark-mode card-subtitle" : "card-subtitle"},
               i.description
             )
           ),
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "certificate-card-footer"},
             i.footer.map(function (t, i) {
-              return e.a.createElement(
+              return o.a.createElement(
                 "span",
                 {
                   key: i,
@@ -1653,21 +1674,21 @@
         );
       }
       function z() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.a.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "20px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "main", id: "achievements"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "achievement-main-div"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "achievement-header"},
-                    e.a.createElement(
+                    o.a.createElement(
                       "h1",
                       {
                         className: t
@@ -1676,7 +1697,7 @@
                       },
                       A.a.title
                     ),
-                    e.a.createElement(
+                    o.a.createElement(
                       "p",
                       {
                         className: t
@@ -1686,11 +1707,11 @@
                       A.a.subtitle
                     )
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "achievement-cards-div"},
                     A.a.achievementsCards.map(function (i, a) {
-                      return e.a.createElement(O, {
+                      return o.a.createElement(O, {
                         key: a,
                         isDark: t,
                         cardInfo: {
@@ -1707,11 +1728,11 @@
             )
           : null;
       }
-      a(194), a(195);
+      a(195), a(196);
       function j(t) {
         var i = t.blog,
           a = t.isDark;
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           {
             onClick: function () {
@@ -1719,10 +1740,10 @@
               (t = i.url) && window.open(t, "_blank").focus();
             }
           },
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: a ? "blog-container dark-mode" : "blog-container"},
-            e.a.createElement(
+            o.a.createElement(
               "a",
               {
                 className: a
@@ -1730,43 +1751,43 @@
                   : "blog-card",
                 href: "#blog"
               },
-              e.a.createElement(
+              o.a.createElement(
                 "h3",
                 {className: a ? "small-dark blog-title" : "blog-title"},
                 i.title
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "p",
                 {className: a ? "small-dark small" : "small"},
                 i.description
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "go-corner"},
-                e.a.createElement("div", {className: "go-arrow"}, "\u2192")
+                o.a.createElement("div", {className: "go-arrow"}, "\u2192")
               )
             )
           )
         );
       }
       function U() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.c.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "20px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "main", id: "blogs"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "blog-header"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "h1",
                     {className: "blog-header-text"},
                     A.c.title
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "p",
                     {
                       className: t
@@ -1776,14 +1797,14 @@
                     A.c.subtitle
                   )
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "blog-main-div"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "blog-text-div"},
                     A.c.blogs.map(function (i, a) {
-                      return e.a.createElement(j, {
+                      return o.a.createElement(j, {
                         key: a,
                         isDark: t,
                         blog: {
@@ -1800,42 +1821,50 @@
             )
           : null;
       }
-      a(196);
+      a(197);
       function Z() {
-        return e.a.createElement(
+        return o.a.createElement(
           p.Fade,
           {bottom: !0, duration: 1e3, distance: "5px"},
-          e.a.createElement("div", {className: "footer-div"})
+          o.a.createElement(
+            "div",
+            {className: "footer-div"},
+            o.a.createElement(
+              "p",
+              {class: "dark-mode footer-text"},
+              "\xa9 2021 - Thuong Nguyen Portfolio"
+            )
+          )
         );
       }
-      a(197), a(198);
+      a(198), a(199);
       function L(t) {
         var i = t.talkDetails;
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           null,
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "container"},
-            e.a.createElement(
+            o.a.createElement(
               "div",
               {className: i.isDark ? "dark-rectangle rectangle" : "rectangle"},
-              e.a.createElement("div", {className: "diagonal-fill"}),
-              e.a.createElement("div", {className: "talk-card-title"}, i.title),
-              e.a.createElement(
+              o.a.createElement("div", {className: "diagonal-fill"}),
+              o.a.createElement("div", {className: "talk-card-title"}, i.title),
+              o.a.createElement(
                 "p",
                 {className: "talk-card-subtitle"},
                 i.subtitle
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "card-footer-button-div"},
-                e.a.createElement(
+                o.a.createElement(
                   "a",
                   {href: i.slides_url, target: "_", className: "talk-button"},
                   "Slides"
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "a",
                   {href: i.event_url, target: "_", className: "talk-button"},
                   "Event"
@@ -1846,23 +1875,23 @@
         );
       }
       function J() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.l.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "20px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "main", id: "talks"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "talk-header"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "h1",
                     {className: "talk-header-title"},
                     A.l.title
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "p",
                     {
                       className: t
@@ -1872,7 +1901,7 @@
                     A.l.subtitle
                   ),
                   A.l.talks.map(function (i, a) {
-                    return e.a.createElement(L, {
+                    return o.a.createElement(L, {
                       key: a,
                       talkDetails: {
                         title: i.title,
@@ -1889,25 +1918,25 @@
             )
           : null;
       }
-      a(199);
+      a(200);
       function W() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.i.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               p.Fade,
               {bottom: !0, duration: 1e3, distance: "20px"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "main"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "podcast-header"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "h1",
                     {className: "podcast-header-title"},
                     A.i.title
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "p",
                     {
                       className: t
@@ -1917,14 +1946,14 @@
                     A.i.subtitle
                   )
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "podcast-main-div"},
                   A.i.podcast.map(function (t, i) {
-                    return e.a.createElement(
+                    return o.a.createElement(
                       "div",
                       {key: i},
-                      e.a.createElement("iframe", {
+                      o.a.createElement("iframe", {
                         className: "podcast",
                         src: t,
                         frameBorder: "0",
@@ -1938,15 +1967,15 @@
             )
           : null;
       }
-      a(200), a(201);
+      a(201), a(202);
       function X(t) {
         var i = t.school,
-          a = Object(o.createRef)(),
+          a = Object(e.createRef)(),
           x = function (t) {
             var i = t.descBullets;
             return i
               ? i.map(function (t, i) {
-                  return e.a.createElement(
+                  return o.a.createElement(
                     "li",
                     {key: i, className: "subTitle"},
                     t
@@ -1954,20 +1983,20 @@
                 })
               : null;
           },
-          s = Object(o.useContext)(c).isDark;
-        return e.a.createElement(
+          s = Object(e.useContext)(c).isDark;
+        return o.a.createElement(
           "div",
           null,
-          e.a.createElement(
+          o.a.createElement(
             p.Fade,
             {left: !0, duration: 1e3},
-            e.a.createElement(
+            o.a.createElement(
               "div",
               {className: "education-card"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "education-card-left"},
-                e.a.createElement("img", {
+                o.a.createElement("img", {
                   crossOrigin: "anonymous",
                   ref: a,
                   className: "education-roundedimg",
@@ -1975,18 +2004,18 @@
                   alt: i.schoolName
                 })
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "education-card-right"},
-                e.a.createElement(
+                o.a.createElement(
                   "h5",
                   {className: "education-text-school"},
                   i.schoolName
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "education-text-details"},
-                  e.a.createElement(
+                  o.a.createElement(
                     "h5",
                     {
                       className: s
@@ -1995,7 +2024,7 @@
                     },
                     i.subHeader
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "p",
                     {
                       className: "".concat(
@@ -2005,52 +2034,52 @@
                     },
                     i.duration
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "p",
                     {className: "education-text-desc"},
                     i.desc
                   ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "div",
                     {className: "education-text-bullets"},
-                    e.a.createElement(
+                    o.a.createElement(
                       "ul",
                       null,
-                      e.a.createElement(x, {descBullets: i.descBullets})
+                      o.a.createElement(x, {descBullets: i.descBullets})
                     )
                   )
                 )
               )
             )
           ),
-          e.a.createElement(
+          o.a.createElement(
             p.Slide,
             {left: !0, duration: 2e3},
-            e.a.createElement("div", {className: "education-card-border"})
+            o.a.createElement("div", {className: "education-card-border"})
           )
         );
       }
       function q() {
         return A.e.display
-          ? e.a.createElement(
+          ? o.a.createElement(
               "div",
               {className: "education-section", id: "education"},
-              e.a.createElement(
+              o.a.createElement(
                 "h1",
                 {className: "education-heading"},
                 "Education"
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "education-card-container"},
                 A.e.schools.map(function (t, i) {
-                  return e.a.createElement(X, {key: i, school: t});
+                  return o.a.createElement(X, {key: i, school: t});
                 })
               )
             )
           : null;
       }
-      a(202);
+      a(203);
       function K() {
         function t() {
           document.body.scrollTop > 20 ||
@@ -2067,7 +2096,7 @@
           (window.onload = function () {
             t();
           }),
-          e.a.createElement(
+          o.a.createElement(
             "button",
             {
               onClick: function () {
@@ -2077,32 +2106,32 @@
               id: "topButton",
               title: "Go to top"
             },
-            e.a.createElement("i", {
+            o.a.createElement("i", {
               className: "fas fa-hand-point-up",
               "aria-hidden": "true"
             })
           )
         );
       }
-      a(203);
+      a(204);
       var _ = a(68),
         $ = function () {
-          return e.a.createElement(G, null);
+          return o.a.createElement(G, null);
         };
       var tt = window.screen.width;
       function it() {
-        var t = Object(o.useContext)(c).isDark;
+        var t = Object(e.useContext)(c).isDark;
         return A.n.display && A.n.userName
-          ? e.a.createElement(
-              o.Suspense,
+          ? o.a.createElement(
+              e.Suspense,
               {fallback: $()},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "tw-main-div", id: "twitter"},
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {className: "centerContent"},
-                  e.a.createElement(_.a, {
+                  o.a.createElement(_.a, {
                     sourceType: "profile",
                     screenName: A.n.userName,
                     options: {height: 400, width: {widthScreen: tt}},
@@ -2125,28 +2154,28 @@
             )
           : null;
       }
-      a(204);
+      a(205);
       var at = a(67);
-      function ot() {
-        var t = Object(o.useContext)(c).isDark;
-        return e.a.createElement(
+      function et() {
+        var t = Object(e.useContext)(c).isDark;
+        return o.a.createElement(
           p.Fade,
           {bottom: !0, duration: 1e3, distance: "20px"},
-          e.a.createElement(
+          o.a.createElement(
             "div",
             {className: "main contact-margin-top", id: "contact"},
-            e.a.createElement(
+            o.a.createElement(
               "div",
               {className: "contact-div-main"},
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "contact-header"},
-                e.a.createElement(
+                o.a.createElement(
                   "h1",
                   {className: "heading contact-title"},
                   A.d.title
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "p",
                   {
                     className: t
@@ -2155,7 +2184,7 @@
                   },
                   A.d.subtitle
                 ),
-                e.a.createElement(
+                o.a.createElement(
                   "div",
                   {
                     className: t
@@ -2163,10 +2192,10 @@
                       : "contact-text-div"
                   },
                   A.d.number &&
-                    e.a.createElement(
-                      e.a.Fragment,
+                    o.a.createElement(
+                      o.a.Fragment,
                       null,
-                      e.a.createElement(
+                      o.a.createElement(
                         "a",
                         {
                           className: "contact-detail",
@@ -2174,10 +2203,10 @@
                         },
                         A.d.number
                       ),
-                      e.a.createElement("br", null),
-                      e.a.createElement("br", null)
+                      o.a.createElement("br", null),
+                      o.a.createElement("br", null)
                     ),
-                  e.a.createElement(
+                  o.a.createElement(
                     "a",
                     {
                       className: "contact-detail-email",
@@ -2185,27 +2214,27 @@
                     },
                     A.d.email_address
                   ),
-                  e.a.createElement("br", null),
-                  e.a.createElement("br", null),
-                  e.a.createElement(P.a, null)
+                  o.a.createElement("br", null),
+                  o.a.createElement("br", null),
+                  o.a.createElement(P.a, null)
                 )
               ),
-              e.a.createElement(
+              o.a.createElement(
                 "div",
                 {className: "contact-image-div"},
                 A.g.animated
-                  ? e.a.createElement(V, {animationData: at})
-                  : e.a.createElement("img", {alt: "Man working", src: a(71)})
+                  ? o.a.createElement(V, {animationData: at})
+                  : o.a.createElement("img", {alt: "Man working", src: a(71)})
               )
             )
           )
         );
       }
-      var et = Object(o.lazy)(function () {
-        return a.e(3).then(a.bind(null, 210));
+      var ot = Object(e.lazy)(function () {
+        return a.e(3).then(a.bind(null, 211));
       });
       function xt() {
-        var t = Object(o.useState)([]),
+        var t = Object(e.useState)([]),
           i = Object(r.a)(t, 2),
           a = i[0],
           x = i[1];
@@ -2213,7 +2242,7 @@
           x(t);
         }
         return (
-          Object(o.useEffect)(function () {
+          Object(e.useEffect)(function () {
             if ("true" === A.h.showGithubProfile) {
               fetch("/profile.json")
                 .then(function (t) {
@@ -2236,36 +2265,36 @@
           A.h.display &&
           "true" === A.h.showGithubProfile &&
           !("string" === typeof a || a instanceof String)
-            ? e.a.createElement(
-                o.Suspense,
-                {fallback: e.a.createElement(G, null)},
-                e.a.createElement(et, {prof: a, key: a.id})
+            ? o.a.createElement(
+                e.Suspense,
+                {fallback: o.a.createElement(G, null)},
+                o.a.createElement(ot, {prof: a, key: a.id})
               )
-            : e.a.createElement(ot, null)
+            : o.a.createElement(et, null)
         );
       }
-      a(205);
+      a(206);
       var st = function () {
         var t = (function (t, i) {
-            var a = Object(o.useState)(function () {
+            var a = Object(e.useState)(function () {
                 try {
                   var a = window.localStorage.getItem(t);
                   return a ? JSON.parse(a) : i;
-                } catch (o) {
-                  return console.log(o), i;
+                } catch (e) {
+                  return console.log(e), i;
                 }
               }),
-              e = Object(r.a)(a, 2),
-              x = e[0],
-              s = e[1];
+              o = Object(r.a)(a, 2),
+              x = o[0],
+              s = o[1];
             return [
               x,
               function (i) {
                 try {
                   var a = i instanceof Function ? i(x) : i;
                   s(a), window.localStorage.setItem(t, JSON.stringify(a));
-                } catch (o) {
-                  console.log(o);
+                } catch (e) {
+                  console.log(e);
                 }
               }
             ];
@@ -2276,10 +2305,10 @@
           i = Object(r.a)(t, 2),
           a = i[0],
           x = i[1];
-        return e.a.createElement(
+        return o.a.createElement(
           "div",
           {className: a ? "dark-mode" : null},
-          e.a.createElement(
+          o.a.createElement(
             l,
             {
               value: {
@@ -2289,27 +2318,27 @@
                 }
               }
             },
-            e.a.createElement(h, null),
-            e.a.createElement(S, null),
-            e.a.createElement(M, null),
-            e.a.createElement(Q, null),
-            e.a.createElement(q, null),
-            e.a.createElement(T, null),
-            e.a.createElement(N, null),
-            e.a.createElement(H, null),
-            e.a.createElement(z, null),
-            e.a.createElement(U, null),
-            e.a.createElement(J, null),
-            e.a.createElement(it, null),
-            e.a.createElement(W, null),
-            e.a.createElement(xt, null),
-            e.a.createElement(Z, null),
-            e.a.createElement(K, null)
+            o.a.createElement(h, null),
+            o.a.createElement(S, null),
+            o.a.createElement(M, null),
+            o.a.createElement(Q, null),
+            o.a.createElement(q, null),
+            o.a.createElement(T, null),
+            o.a.createElement(N, null),
+            o.a.createElement(H, null),
+            o.a.createElement(z, null),
+            o.a.createElement(U, null),
+            o.a.createElement(J, null),
+            o.a.createElement(it, null),
+            o.a.createElement(W, null),
+            o.a.createElement(xt, null),
+            o.a.createElement(Z, null),
+            o.a.createElement(K, null)
           )
         );
       };
       var rt = function () {
-        return e.a.createElement("div", null, e.a.createElement(st, null));
+        return o.a.createElement("div", null, o.a.createElement(st, null));
       };
       Boolean(
         "localhost" === window.location.hostname ||
@@ -2318,7 +2347,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      s.a.render(e.a.createElement(rt, null), document.getElementById("root")),
+      s.a.render(o.a.createElement(rt, null), document.getElementById("root")),
         "serviceWorker" in navigator &&
           navigator.serviceWorker.ready.then(function (t) {
             t.unregister();
@@ -2327,4 +2356,4 @@
   ],
   [[72, 1, 2]]
 ]);
-//# sourceMappingURL=main.b2c5f71e.chunk.js.map
+//# sourceMappingURL=main.d85983ca.chunk.js.map

@@ -1,8 +1,8 @@
 (this.webpackJsonpdeveloperfolio = this.webpackJsonpdeveloperfolio || []).push([
   [3],
   {
-    208: function (e, a, t) {},
-    210: function (e, a, t) {
+    209: function (e, a, t) {},
+    211: function (e, a, t) {
       "use strict";
       t.r(a),
         t.d(a, "default", function () {
@@ -10,7 +10,7 @@
         });
       var l = t(0),
         n = t.n(l),
-        c = (t(208), t(29)),
+        c = (t(209), t(29)),
         i = t(1),
         r = t(3);
       function s(e) {
@@ -97,4 +97,4 @@
     }
   }
 ]);
-//# sourceMappingURL=3.427651c5.chunk.js.map
+//# sourceMappingURL=3.ac0dc01d.chunk.js.map

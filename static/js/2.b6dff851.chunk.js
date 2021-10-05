@@ -1,4 +1,4 @@
-/*! For license information please see 2.7f85a02c.chunk.js.LICENSE.txt */
+/*! For license information please see 2.b6dff851.chunk.js.LICENSE.txt */
 (this.webpackJsonpdeveloperfolio = this.webpackJsonpdeveloperfolio || []).push([
   [2],
   [
@@ -16,7 +16,7 @@
         return e && e.__esModule ? e : {default: e};
       }
       Object.defineProperty(t, "__esModule", {value: !0});
-      var i = n(120);
+      var i = n(121);
       Object.defineProperty(t, "default", {
         enumerable: !0,
         get: function () {
@@ -30,28 +30,28 @@
           return r(a).default;
         }
       });
-      var o = n(122);
+      var o = n(123);
       Object.defineProperty(t, "Bounce", {
         enumerable: !0,
         get: function () {
           return r(o).default;
         }
       });
-      var s = n(123);
+      var s = n(124);
       Object.defineProperty(t, "Roll", {
         enumerable: !0,
         get: function () {
           return r(s).default;
         }
       });
-      var l = n(124);
+      var l = n(125);
       Object.defineProperty(t, "Slide", {
         enumerable: !0,
         get: function () {
           return r(l).default;
         }
       });
-      var u = n(125);
+      var u = n(126);
       Object.defineProperty(t, "Flip", {
         enumerable: !0,
         get: function () {
@@ -64,21 +64,21 @@
             return r(i).default;
           }
         });
-      var c = n(126);
+      var c = n(127);
       Object.defineProperty(t, "Rotate", {
         enumerable: !0,
         get: function () {
           return r(c).default;
         }
       });
-      var f = n(127);
+      var f = n(128);
       Object.defineProperty(t, "LightSpeed", {
         enumerable: !0,
         get: function () {
           return r(f).default;
         }
       });
-      var h = n(128);
+      var h = n(129);
       Object.defineProperty(t, "Zoom", {
         enumerable: !0,
         get: function () {
@@ -437,7 +437,7 @@
         );
       };
       var a = r(n(0)),
-        o = r(n(121));
+        o = r(n(122));
       e.exports = t.default;
     },
     function (e, t) {
@@ -751,7 +751,7 @@
     },
     function (e, t, n) {
       var r = n(22),
-        i = n(154),
+        i = n(155),
         a = n(35),
         o = n(33)("IE_PROTO"),
         s = function () {},
@@ -761,7 +761,7 @@
             r = a.length;
           for (
             t.style.display = "none",
-              n(155).appendChild(t),
+              n(156).appendChild(t),
               t.src = "javascript:",
               (e = t.contentWindow.document).open(),
               e.write("<script>document.F=Object</script>"),
@@ -1001,7 +1001,7 @@
       (a.propTypes = f), (t.default = a), (e.exports = t.default);
     },
     function (e, t, n) {
-      var r = n(134);
+      var r = n(135);
       e.exports = function (e, t, n) {
         if ((r(e), void 0 === t)) return e;
         switch (n) {
@@ -1048,7 +1048,7 @@
     function (e, t, n) {
       var r = n(16),
         i = n(20),
-        a = n(136)(!1),
+        a = n(137)(!1),
         o = n(33)("IE_PROTO");
       e.exports = function (e, t) {
         var n,
@@ -1097,8 +1097,8 @@
     function (e, t, n) {
       "use strict";
       t.__esModule = !0;
-      var r = o(n(149)),
-        i = o(n(160)),
+      var r = o(n(150)),
+        i = o(n(161)),
         a =
           "function" === typeof i.default && "symbol" === typeof r.default
             ? function (e) {
@@ -1138,7 +1138,7 @@
         a = n(55),
         o = n(17),
         s = n(37),
-        l = n(153),
+        l = n(154),
         u = n(39),
         c = n(52),
         f = n(21)("iterator"),
@@ -1676,15 +1676,15 @@
     function (e, t, n) {
       "use strict";
       Object.defineProperty(t, "__esModule", {value: !0});
-      var r = h(n(130)),
-        i = h(n(139)),
-        a = h(n(143)),
-        o = h(n(144)),
-        s = h(n(148)),
-        l = h(n(170)),
+      var r = h(n(131)),
+        i = h(n(140)),
+        a = h(n(144)),
+        o = h(n(145)),
+        s = h(n(149)),
+        l = h(n(171)),
         u = h(n(0)),
         c = h(n(2)),
-        f = h(n(178));
+        f = h(n(179));
       function h(e) {
         return e && e.__esModule ? e : {default: e};
       }
@@ -12089,6 +12089,7 @@
     ,
     ,
     ,
+    ,
     function (e, t, n) {
       "use strict";
       function r(e) {
@@ -13822,7 +13823,7 @@
       "use strict";
       t.__esModule = !0;
       var r,
-        i = n(131),
+        i = n(132),
         a = (r = i) && r.__esModule ? r : {default: r};
       t.default =
         a.default ||
@@ -13836,14 +13837,14 @@
         };
     },
     function (e, t, n) {
-      e.exports = {default: n(132), __esModule: !0};
+      e.exports = {default: n(133), __esModule: !0};
     },
     function (e, t, n) {
-      n(133), (e.exports = n(8).Object.assign);
+      n(134), (e.exports = n(8).Object.assign);
     },
     function (e, t, n) {
       var r = n(14);
-      r(r.S + r.F, "Object", {assign: n(135)});
+      r(r.S + r.F, "Object", {assign: n(136)});
     },
     function (e, t) {
       e.exports = function (e) {
@@ -13897,8 +13898,8 @@
     },
     function (e, t, n) {
       var r = n(20),
-        i = n(137),
-        a = n(138);
+        i = n(138),
+        a = n(139);
       e.exports = function (e) {
         return function (t, n, o) {
           var s,
@@ -13930,15 +13931,15 @@
       };
     },
     function (e, t, n) {
-      e.exports = {default: n(140), __esModule: !0};
+      e.exports = {default: n(141), __esModule: !0};
     },
     function (e, t, n) {
-      n(141), (e.exports = n(8).Object.getPrototypeOf);
+      n(142), (e.exports = n(8).Object.getPrototypeOf);
     },
     function (e, t, n) {
       var r = n(28),
         i = n(52);
-      n(142)("getPrototypeOf", function () {
+      n(143)("getPrototypeOf", function () {
         return function (e) {
           return i(r(e));
         };
@@ -13975,7 +13976,7 @@
       "use strict";
       t.__esModule = !0;
       var r,
-        i = n(145),
+        i = n(146),
         a = (r = i) && r.__esModule ? r : {default: r};
       t.default = (function () {
         function e(e, t) {
@@ -13993,10 +13994,10 @@
       })();
     },
     function (e, t, n) {
-      e.exports = {default: n(146), __esModule: !0};
+      e.exports = {default: n(147), __esModule: !0};
     },
     function (e, t, n) {
-      n(147);
+      n(148);
       var r = n(8).Object;
       e.exports = function (e, t, n) {
         return r.defineProperty(e, t, n);
@@ -14026,14 +14027,14 @@
       };
     },
     function (e, t, n) {
-      e.exports = {default: n(150), __esModule: !0};
+      e.exports = {default: n(151), __esModule: !0};
     },
     function (e, t, n) {
-      n(151), n(156), (e.exports = n(40).f("iterator"));
+      n(152), n(157), (e.exports = n(40).f("iterator"));
     },
     function (e, t, n) {
       "use strict";
-      var r = n(152)(!0);
+      var r = n(153)(!0);
       n(54)(
         String,
         "String",
@@ -14109,7 +14110,7 @@
       e.exports = r && r.documentElement;
     },
     function (e, t, n) {
-      n(157);
+      n(158);
       for (
         var r = n(11),
           i = n(17),
@@ -14131,8 +14132,8 @@
     },
     function (e, t, n) {
       "use strict";
-      var r = n(158),
-        i = n(159),
+      var r = n(159),
+        i = n(160),
         a = n(37),
         o = n(20);
       (e.exports = n(54)(
@@ -14165,10 +14166,10 @@
       };
     },
     function (e, t, n) {
-      e.exports = {default: n(161), __esModule: !0};
+      e.exports = {default: n(162), __esModule: !0};
     },
     function (e, t, n) {
-      n(162), n(167), n(168), n(169), (e.exports = n(8).Symbol);
+      n(163), n(168), n(169), n(170), (e.exports = n(8).Symbol);
     },
     function (e, t, n) {
       "use strict";
@@ -14177,7 +14178,7 @@
         a = n(12),
         o = n(14),
         s = n(55),
-        l = n(163).KEY,
+        l = n(164).KEY,
         u = n(19),
         c = n(34),
         f = n(39),
@@ -14185,8 +14186,8 @@
         d = n(21),
         p = n(40),
         m = n(41),
-        y = n(164),
-        g = n(165),
+        y = n(165),
+        g = n(166),
         v = n(22),
         b = n(18),
         x = n(28),
@@ -14194,7 +14195,7 @@
         w = n(30),
         S = n(23),
         P = n(38),
-        T = n(166),
+        T = n(167),
         k = n(57),
         _ = n(36),
         C = n(15),
@@ -14503,8 +14504,8 @@
     function (e, t, n) {
       "use strict";
       t.__esModule = !0;
-      var r = o(n(171)),
-        i = o(n(175)),
+      var r = o(n(172)),
+        i = o(n(176)),
         a = o(n(53));
       function o(e) {
         return e && e.__esModule ? e : {default: e};
@@ -14527,14 +14528,14 @@
       };
     },
     function (e, t, n) {
-      e.exports = {default: n(172), __esModule: !0};
+      e.exports = {default: n(173), __esModule: !0};
     },
     function (e, t, n) {
-      n(173), (e.exports = n(8).Object.setPrototypeOf);
+      n(174), (e.exports = n(8).Object.setPrototypeOf);
     },
     function (e, t, n) {
       var r = n(14);
-      r(r.S, "Object", {setPrototypeOf: n(174).set});
+      r(r.S, "Object", {setPrototypeOf: n(175).set});
     },
     function (e, t, n) {
       var r = n(18),
@@ -14567,10 +14568,10 @@
       };
     },
     function (e, t, n) {
-      e.exports = {default: n(176), __esModule: !0};
+      e.exports = {default: n(177), __esModule: !0};
     },
     function (e, t, n) {
-      n(177);
+      n(178);
       var r = n(8).Object;
       e.exports = function (e, t) {
         return r.create(e, t);
@@ -29146,4 +29147,4 @@
     }
   ]
 ]);
-//# sourceMappingURL=2.7f85a02c.chunk.js.map
+//# sourceMappingURL=2.b6dff851.chunk.js.map
